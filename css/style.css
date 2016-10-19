@@ -1,0 +1,13 @@
+.final{
+  font-family: Times New Roman;
+  line-height: 1em;
+  font-kerning: .3em;
+  padding-left: 40px;
+  font-size: 16pt;
+  padding-top: 15px;
+}
+#output{
+  display: none;
+  margin-top: 50px;
+  border: 3px dotted black;
+}

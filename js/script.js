@@ -7,9 +7,12 @@ $(document).ready(function(){
     var starttime = $("input#starttime").val();
     var endtime = $("input#endtime").val();
 
-    var result = "<p>"+ name + "</p> " + date + " "
-    + starttime + " " + endtime;
-    $("#output").empty().append(result);
+    var result = "<p class='final'>"+ name + "</p>"
+    + "<p class='final'>" + date + "</p>"
+    + "<p class='final'>" + starttime + "</p>"
+    + "<p class='final'>" + endtime + "</p>";
+    $("#output").empty().append(result).show();
+
     event.preventDefault();
   });
 });
